@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-3 img{
+    width: 230px;
+    padding: 5px;
+    transition: 1s;
+}
+.col-3 img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}   
+    
+    
